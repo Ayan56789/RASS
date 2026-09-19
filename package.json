@@ -1,0 +1,13 @@
+{
+  "name": "the-scissors-salon",
+  "version": "1.0.0",
+  "description": "The Scissors Family Saloon - Real-time seat booking prototype",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
