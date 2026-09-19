@@ -1,13 +1,12 @@
 {
-  "name": "the-scissors-salon",
+  "name": "scissors-saloon",
   "version": "1.0.0",
-  "description": "The Scissors Family Saloon - Real-time seat booking prototype",
+  "description": "Backend server for The Scissors Family Saloon",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node server.js"
   },
-  "engines": {
-    "node": ">=16"
+  "dependencies": {
+    "mongodb": "^6.8.0"
   }
 }
